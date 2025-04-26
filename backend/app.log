@@ -1,0 +1,96 @@
+2025-04-25 19:03:10,402 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-25 19:03:10,703 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/11" 404 0
+2025-04-25 19:03:10,947 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/11" 200 0
+2025-04-25 19:03:11,447 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:03:11,676 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:03:12,151 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+2025-04-25 19:03:12,178 - WARNING -  * Debugger is active!
+2025-04-25 19:03:12,183 - INFO -  * Debugger PIN: 101-661-857
+2025-04-25 19:03:20,261 - INFO -  * Detected change in 'C:\\Users\\manas\\Desktop\\project\\app.py', reloading
+2025-04-25 19:03:25,774 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-25 19:03:26,043 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/11" 404 0
+2025-04-25 19:03:26,280 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/11" 200 0
+2025-04-25 19:03:26,876 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:03:27,121 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:03:27,757 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+2025-04-25 19:03:27,794 - WARNING -  * Debugger is active!
+2025-04-25 19:03:27,800 - INFO -  * Debugger PIN: 101-661-857
+2025-04-25 19:03:32,201 - ERROR - Error processing question: 
+Traceback (most recent call last):
+  File "C:\Users\manas\Desktop\project\app.py", line 69, in ask_question
+    answer = query_rag(question)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manas\Desktop\project\app.py", line 49, in query_rag
+    D, I = vector_index.search(question_embedding, k=1)  # k=1 for the most relevant chunk
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manas\AppData\Local\Programs\Python\Python312\Lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2025-04-25 19:03:32,204 - INFO - 127.0.0.1 - - [25/Apr/2025 19:03:32] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-04-25 19:05:34,937 - INFO -  * Detected change in 'C:\\Users\\manas\\Desktop\\project\\query_rag.py', reloading
+2025-04-25 19:05:42,996 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-25 19:05:43,418 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/11" 404 0
+2025-04-25 19:05:43,655 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/11" 200 0
+2025-04-25 19:05:44,274 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:05:44,517 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:05:45,204 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+2025-04-25 19:05:45,261 - WARNING -  * Debugger is active!
+2025-04-25 19:05:45,268 - INFO -  * Debugger PIN: 101-661-857
+2025-04-25 19:05:45,535 - ERROR - Error processing question: 
+Traceback (most recent call last):
+  File "C:\Users\manas\Desktop\project\app.py", line 69, in ask_question
+    answer = query_rag(question)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manas\Desktop\project\app.py", line 49, in query_rag
+    D, I = vector_index.search(question_embedding, k=1)  # k=1 for the most relevant chunk
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manas\AppData\Local\Programs\Python\Python312\Lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2025-04-25 19:05:45,537 - INFO - 127.0.0.1 - - [25/Apr/2025 19:05:45] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-04-25 19:06:47,886 - INFO -  * Detected change in 'C:\\Users\\manas\\Desktop\\project\\query_rag.py', reloading
+2025-04-25 19:06:54,600 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-25 19:06:55,342 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/11" 404 0
+2025-04-25 19:06:56,023 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/11" 200 0
+2025-04-25 19:06:56,580 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:06:56,817 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:06:57,420 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+2025-04-25 19:06:57,456 - WARNING -  * Debugger is active!
+2025-04-25 19:06:57,463 - INFO -  * Debugger PIN: 101-661-857
+2025-04-25 19:06:57,714 - ERROR - Error processing question: 
+Traceback (most recent call last):
+  File "C:\Users\manas\Desktop\project\app.py", line 69, in ask_question
+    answer = query_rag(question)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manas\Desktop\project\app.py", line 49, in query_rag
+    D, I = vector_index.search(question_embedding, k=1)  # k=1 for the most relevant chunk
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manas\AppData\Local\Programs\Python\Python312\Lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2025-04-25 19:06:57,717 - INFO - 127.0.0.1 - - [25/Apr/2025 19:06:57] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-04-25 19:10:21,242 - INFO -  * Detected change in 'C:\\Users\\manas\\Desktop\\project\\app.py', reloading
+2025-04-25 19:10:28,231 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-25 19:10:28,539 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/11" 404 0
+2025-04-25 19:10:29,363 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/11" 200 0
+2025-04-25 19:10:30,225 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:10:30,479 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 19:10:30,905 - DEBUG - https://huggingface.co:443 "HEAD /t5-base/resolve/main/generation_config.json HTTP/11" 200 0
+2025-04-25 19:10:30,922 - WARNING -  * Debugger is active!
+2025-04-25 19:10:30,924 - INFO -  * Debugger PIN: 101-661-857
+2025-04-25 19:10:56,290 - ERROR - Error processing question: 
+Traceback (most recent call last):
+  File "C:\Users\manas\Desktop\project\app.py", line 69, in ask_question
+    answer = query_rag(question)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manas\Desktop\project\app.py", line 49, in query_rag
+    D, I = vector_index.search(question_embedding, k=1)  # k=1 for the most relevant chunk
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manas\AppData\Local\Programs\Python\Python312\Lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2025-04-25 19:10:56,292 - INFO - 127.0.0.1 - - [25/Apr/2025 19:10:56] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
